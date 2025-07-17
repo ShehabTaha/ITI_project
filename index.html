@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>My Store</title>
+</head>
+<body>
+    <!-- Start Nav -->
+    <div class="nav">
+        <div class="container">
+            <h1 class="title">MyStore</h1>
+            <div class="links">
+                <ul>
+                    <li><a class="description" href="#" id="back-to-products">Products</a></li>
+                    <li><a class="description" href="#" id="back-to-cart">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav -->
+    <!-- Start Main Content -->
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <img src="imgs/glasses.jpg" alt="">
+                    <h2 class="title">Glasses</h2>
+                    <p class="price">$50</p>
+                    <label for="glasses-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="glasses-quantity" value="1" min="1">
+                    <p class="description">Stylish sunglasses for everyday wear.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-glasses">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/tshirt.jpg" alt="">
+                    <h2 class="title">T-Shirt</h2>
+                    <p class="price">$25</p>
+                    <label for="tshirt-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="tshirt-quantity" value="1" min="1">
+                    <p class="description">Comfortable cotton t-shirt for everyday wear.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-tshirt">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/desk.jpg" alt="">
+                    <h2 class="title">Desk</h2>
+                    <p class="price">$150</p>
+                    <label for="desk-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="desk-quantity" value="1" min="1">
+                    <p class="description">Ergonomic desk for comfortable working.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-desk">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <img src="imgs/monitor.jpg" alt="">
+                    <h2 class="title">Monitor</h2>
+                    <p class="price">$300</p>
+                    <label for="monitor-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="monitor-quantity" value="1" min="1">
+                    <p class="description">High-resolution monitor for immersive viewing.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-monitor">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/keyboard.jpg" alt="">
+                    <h2 class="title">Keyboard</h2>
+                    <p class="price">$100</p>
+                    <label for="keyboard-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="keyboard-quantity" value="1" min="1">
+                    <p class="description">Mechanical keyboard for a better typing experience.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-keyboard">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/joysticks.jpg" alt="">
+                    <h2 class="title">Joysticks</h2>
+                    <p class="price">$70</p>
+                    <label for="joysticks-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="joysticks-quantity" value="1" min="1">
+                    <p class="description">High-precision joysticks for an immersive gaming experience.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-joysticks">Add to Cart</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <img src="imgs/book.jpg" alt="">
+                    <h2 class="title">Book</h2>
+                    <p class="price">$15</p>
+                    <label for="book-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="book-quantity" value="1" min="1">
+                    <p class="description">A fascinating book to read.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-book">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/headphone.jpg" alt="">
+                    <h2 class="title">Headphones</h2>
+                    <p class="price">$80</p>
+                    <label for="headphone-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="headphone-quantity" value="1" min="1">
+                    <p class="description">Noise-cancelling headphones for immersive sound.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-headphone">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/Shoes.jpg" alt="">
+                    <h2 class="title">Shoes</h2>
+                    <p class="price">$120</p>
+                    <label for="shoes-quantity">Quantity:</label>
+                    <input type="number" class="quantity" id="shoes-quantity" value="1" min="1">
+                    <p class="description">Comfortable shoes for everyday wear.</p>
+                    <button class="btn add-to-cart" id="add-to-cart-shoes">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Content -->
+    <!-- Start Empty Cart -->
+    <div class="empty-cart">
+        <h2 class="title">Your Cart is Empty</h2>
+        <p class="description">Add items to your cart to see them here.</p>
+        <button class="btn" id="continue-shopping">Continue Shopping</button>
+    </div>
+    <!-- End Empty Cart -->
+    <!-- Start Cart -->
+    <div class="cart">
+        <h2 class="title">Your Cart</h2>
+        <form action="" class="form">
+            <input type="text" placeholder="Enter your name" id="name" required>
+            <input type="email" placeholder="Enter your email" id="email" required>
+            <input type="tel" placeholder="Enter your phone number" id="phone" required>
+            <button class="btn" id="submit">Submit</button>
+        </form>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <p>Total: $<span id="total-price">0</span></p>
+        </div>
+    </div>
+    <!-- End Cart -->
+        
+    <script src="main_script.js"></script>
+</body>
+</html>

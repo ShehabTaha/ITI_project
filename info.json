@@ -1,0 +1,73 @@
+[
+{
+    "id": 1,
+    "name" :"glasses",
+    "price": 50,
+    "description": "Stylish sunglasses for summer.",
+    "img": "imgs/glasses.jpg"
+}
+,
+{
+    "id": 2,
+    "name": "t-shirts",
+    "price": 20,
+    "description": "Cool t-shirts for the summer.",
+    "img": "imgs/tshirt.jpg"
+}
+,
+{
+    "id": 3,
+    "name": "desk",
+    "price": 150,
+    "description": "Ergonomic desk for comfortable working.",
+    "img": "imgs/desk.jpg"
+}
+,
+{
+    "id": 4,
+    "name": "monitor",
+    "price": 300,
+    "description": "High-resolution monitor for immersive viewing.",
+    "img": "imgs/monitor.jpg"
+}
+,
+{
+    "id": 5,
+    "name": "keyboard",
+    "price": 100,
+    "description": "Mechanical keyboard for a better typing experience.",
+    "img": "imgs/keyboard.jpg"
+}
+,
+{
+    "id": 6,
+    "name": "joysticks",
+    "price": 70,
+    "description": "High-precision joysticks for an immersive gaming experience.",
+    "img": "imgs/joysticks.jpg"
+}
+,
+{
+    "id": 7,
+    "name": "book",
+    "price": 15,
+    "description": "A fascinating book to read.",
+    "img": "imgs/book.jpg"
+}
+,
+{
+    "id": 8,
+    "name": "headphones",
+    "price": 80,
+    "description": "Noise-cancelling headphones for immersive sound.",
+    "img": "imgs/headphones.jpg"
+}
+,
+{
+    "id": 9,
+    "name": "shoes",
+    "price": 120,
+    "description": "Comfortable shoes for everyday wear.",
+    "img": "imgs/shoes.jpg"
+}
+]
